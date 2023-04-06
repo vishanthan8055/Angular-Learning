@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 5rem;
+    border: 5px solid red;
+    padding: 3rem;
+    box-shadow: 1px 5px 50px 5px;
+}
