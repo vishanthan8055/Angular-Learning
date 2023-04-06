@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    background-color: black;
+    color:#19A7CE;    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+}
+.container{
+  border: 2px solid #19A7CE;
+  padding: 1rem;
+  box-shadow: 0px 1px 55px #19A7CE;
+  display: flex;
+  flex-direction: column;
+}
+.container button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: 2px solid #19A7CE;
+    background-color: black;
+    color: #19A7CE;
+}
+.container button:hover{
+    box-shadow: 0px 1px 15px #19A7CE;
+    margin-bottom: .2rem;
+    transition: .2s;
+}
+.modal {
+    display: none;
+    position:absolute; 
+    z-index: 1;
+    padding-top: 15px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(25, 167, 206,.2); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0;
+    border: 1px solid #19A7CE;
+    width: 60%;
+    color: #19A7CE;
+  }
+  .modal-content input{
+    font-size: 1rem;
+    padding: .3rem;
+    background-color: black;
+    border: 1px solid #19A7CE;
+    color: #F6F1F1;
+  }  
+  textarea{
+        font-size: 1rem;
+        padding: .3rem;
+        background-color: black;
+        border: 1px solid #19A7CE;
+        color: #F6F1F1;
+  }
+
+  .close {
+    padding: .2rem;
+    color: #19A7CE;
+    float: right;
+    font-size: 15px;
+    border: 1px solid #19A7CE;
+    font-weight: bold;
+  }
+  
+  .close:hover{
+    color: black;
+    background-color: #19A7CE;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav{
+    border-bottom: 1px solid #19A7CE;
+  }
+  .frm{
+    padding: 1rem 0rem;
+  }
+form button{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #19A7CE;
+    background-color: black;
+    color: #19A7CE;
+}
+form button:hover{
+    box-shadow: 0px 1px 15px #19A7CE;
+    margin-top: .2rem;
+    transition: .2s;
+}
+:root{
+  accent-color :#19A7CE;
+}
