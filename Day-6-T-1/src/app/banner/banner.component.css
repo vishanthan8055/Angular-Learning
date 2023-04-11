@@ -1,0 +1,15 @@
+.banner{
+    background-image: url("../../assets/Images/banner.jpg");
+    width: 100%;
+    height: 25rem;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-y:-290px;
+}
+.txt-c{
+    padding: 3rem 4rem;
+}
+.banner h1,p{
+    color: white;
+    padding: 1rem;
+}
