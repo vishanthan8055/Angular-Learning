@@ -5,44 +5,89 @@
     <style>
         body{
             background-color: black;
-            color: white;
+            color: white; 
+            font-size: 1.5rem;         
         }
-        p{
-            font-size: 1rem;
-            border: 2px solid blue;
-            width: 30%;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid red;
+        }
+        .pages
+        {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 1rem;
+            border: 2px solid red;
+            width: 85%; 
         }
         a{
             text-decoration: none;
-            color: white;
+            color: red;
             padding: 1rem;
             margin: 1rem;
+            border: 2px solid red;
+        }
+        a:hover{
+            border: 2px solid red;
+            box-shadow: 1px 5px 50px 5px;
         }
     </style>
 </head>
 <body>
+    <h1>Angular Training Tasks</h1>
+    <div class="container">
     <div class="pages">
-        <p>
-            <a href="Day-1 T-1/index.html">Day-1 T-1</a>
-        </p>
-        <p>
-            <a href="Day-2 T-1/index.html">Day-2 T-1</a>
-        </p>
-        <p>
-        <a href="Day-3 T-1/index.html">Day-3 T-1</a>
-        </p>
-        <p>
-        <a href="Day-3 T-2/index.html">Day-3 T-2</a>
-        </p>
-        <p>
-        <a href="Day-3 T-3/index.html">Day-3 T-3</a><br>
-        </p>
-        <p>
-            <a href="https://github.com/vishanthan8055/Angular-Learning/tree/master/Day-4%20T-1">Day-4 T-1</a><br>
-        </p>
-        <p>
-            <a href="Day-5 T-1/index.html">Day-5 T-1</a><br>
-        </p>
+        <div class="box">
+            <p>Web Design Layout: </p>
+            <p>
+                <a href="Day-1 T-1/index.html">Day-1 T-1</a>
+            </p>
+        </div>
+        <div class="box">
+            <p>Pop-up by clicking button: </p>
+            <p>
+                <a href="Day-2 T-1/index.html">Day-2 T-1</a>
+            </p>
+        </div>
+        <div class="box">
+            <p>Image Slideshow Using Javascript: </p>
+            <p>
+                <a href="Day-3 T-1/index.html">Day-3 T-1</a>
+            </p>
+        </div>
+        <div class="box">
+            <p>Greeting After Timeout using Javascript: </p>
+            <p>
+                <a href="Day-3 T-2/index.html">Day-3 T-2</a>
+            </p>
+        </div>
+        <div class="box">
+            <p>Timer using Javascript: </p>
+            <p>
+                <a href="Day-3 T-3/index.html">Day-3 T-3</a>
+            </p>
+        </div>
+        <div class="box">
+            <p>Problem Solving Javascript: </p>
+            <p>
+                <a href="https://github.com/vishanthan8055/Angular-Learning/tree/master/Day-4%20T-1">Day-4 T-1</a>
+            </p>
+        </div>
+        <div class="box">
+            <p>Mock Api calls Using Postman: </p>
+            <p>
+                <a href="Day-5 T-1/index.html">Day-5 T-1</a>
+            </p>
+        </div>
     </div>
+</div>
 </body>
 </html>
