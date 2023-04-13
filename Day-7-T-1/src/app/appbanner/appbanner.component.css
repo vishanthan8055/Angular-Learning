@@ -1,0 +1,28 @@
+.banner{
+    background-image: url("http://localhost/greenback.jpg");
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+.txt{
+    width: 70%;
+    margin: 2rem;
+    font-size: 1.5rem;
+} 
+
+.txt>*{
+    margin: 3rem;
+}
+
+
+a{
+    color: black;
+    background-color: white;
+    padding: 1rem 2rem ;
+    border: none;
+    text-decoration: none;
+    border-radius: .5rem;
+} 

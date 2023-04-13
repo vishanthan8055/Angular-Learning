@@ -1,0 +1,8 @@
+<app-appnav></app-appnav>
+<app-appbanner></app-appbanner>
+<app-appcent></app-appcent>
+<div class="show">
+  <app-appbox
+  *ngFor="let x of services;let y=index" 
+  [title]="x" [description]="descriptions[y]" [imgs] = "imgs[y]"></app-appbox>
+</div>
