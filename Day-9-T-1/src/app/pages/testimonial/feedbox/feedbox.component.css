@@ -1,0 +1,14 @@
+.example-card {
+    max-width: 70%;
+    border: .5px solid black;
+    margin: .5rem auto;
+}
+.txt{
+    margin: .5rem;
+    font-size: 1rem;
+}
+.tp{
+    float: right;
+    font-size: .8rem;
+    margin: .5rem;
+}
