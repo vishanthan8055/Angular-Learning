@@ -1,0 +1,24 @@
+
+<mat-form-field appearance="fill">
+    <mat-label>First Name</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Last Name</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Select</mat-label>
+    <mat-select>
+      <mat-option value="one">B.E/B.Tech</mat-option>
+      <mat-option value="two">B.sc</mat-option>
+      <mat-option value="three">B.Com</mat-option>
+    </mat-select>
+</mat-form-field>
+<mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <button mat-raised-button (click)="picker.open()">Open</button>
