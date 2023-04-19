@@ -15,6 +15,7 @@
       <mat-option value="three">B.Com</mat-option>
     </mat-select>
 </mat-form-field>
+<div class="dt">
 <mat-form-field class="example-full-width" appearance="fill">
     <mat-label>Choose a date</mat-label>
     <input matInput [matDatepicker]="picker">
@@ -22,3 +23,5 @@
     <mat-datepicker #picker></mat-datepicker>
   </mat-form-field>
   <button mat-raised-button (click)="picker.open()">Open</button>
+  </div>
+  <button mat-raised-button color="primary">Submit</button>
