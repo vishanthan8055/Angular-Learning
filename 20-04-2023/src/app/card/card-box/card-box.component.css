@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+.price{
+    margin: 1rem;
+    font-weight: bolder;
+}
