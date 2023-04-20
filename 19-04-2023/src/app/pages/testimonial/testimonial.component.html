@@ -1,0 +1,8 @@
+<h2 [style.color]="'darkgray'" [style.padding]="'20px'">
+    Our Customer Feedbacks</h2>
+    <select [(ngModel)]="selected">
+        <option *ngFor="let x of types">{{x}}</option>
+    </select><br/>
+    <app-feedbox 
+    *ngFor="let x of feedlist | typefilter:selected"
+     [feed]="x"></app-feedbox>

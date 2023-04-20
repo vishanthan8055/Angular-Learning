@@ -14,6 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactBoxComponent } from './pages/contact/contact-box/contact-box.component';
 import { ServiceBoxComponent } from './pages/home/service-box/service-box.component';
 import { FeedboxComponent } from './pages/testimonial/feedbox/feedbox.component';
+import { QuoteitPipe } from './pipes/quoteit.pipe';
+import { FormsModule } from '@angular/forms';
+import { TypefilterPipe } from './pipes/typefilter.pipe';
 
 @NgModule({
   declarations: [
@@ -25,13 +28,16 @@ import { FeedboxComponent } from './pages/testimonial/feedbox/feedbox.component'
     ContactComponent,
     ContactBoxComponent,
     ServiceBoxComponent,
-    FeedboxComponent
+    FeedboxComponent,
+    QuoteitPipe,
+    TypefilterPipe
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     MaterialModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [],
