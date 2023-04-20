@@ -1,5 +1,5 @@
 .example-card {
-    max-width: 70%;
+    max-width: 60%;
     border: .5px solid black;
     margin: .5rem auto;
 }
@@ -11,4 +11,7 @@
     float: right;
     font-size: .8rem;
     margin: .5rem;
+}
+.par{
+    text-align: center;
 }
