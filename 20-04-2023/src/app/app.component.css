@@ -1,0 +1,15 @@
+.nv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F74BA;
+    padding: .5rem;
+    font-weight: bolder;
+}
+.nv>*{
+    font-family:cursive;
+    font-size: 2rem;
+}
+.crd{
+    padding: 0rem 1rem;
+}

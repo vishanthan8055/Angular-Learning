@@ -1,10 +1,13 @@
+
 .container{
     width: 80%;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     /* padding: 2rem; */
     margin: 0 auto;
+    padding: 0rem 1rem;
+    justify-content: center;
 }
 .bx{
     padding: .5rem 0rem;
@@ -12,12 +15,21 @@
 }
 mat-slider {
     width: 300px;
-  }
+}
 .slt{
     display: flex;
     align-items: center;
+    
 }
 .slide{
     display: flex;
     align-items: center;
+}
+.hd{
+    display: flex;
+}
+.tp{
+    padding-right: 1rem;
+    border-right: .5px solid gray;
+    height: 100vh;
 }

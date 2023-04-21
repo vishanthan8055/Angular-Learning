@@ -1,4 +1,5 @@
-<div class="tp">
+<div class="hd">
+    <div class="tp">
     <div class="slt">
     <p style="font-weight: bolder;">Select Catogory:</p>
     <select [(ngModel)]="selected" class="bx">
@@ -6,7 +7,7 @@
     </select>
     </div>
     <div class="slide">
-    <p style="font-weight: bolder;">Select Catogory:</p>
+    <p style="font-weight: bolder;">Select Price Range:</p>
     <mat-slider min="100" max="5000">
         <input [(value)] = "min_v" [(ngModel)]="min_v" matSliderStartThumb>
         <input [(value)] = "max_v" [(ngModel)]="max_v" matSliderEndThumb>
@@ -15,7 +16,8 @@
     <p style="font-weight: bolder;">{{min_v | currency:'INR'}} to {{max_v | currency:'INR'}}</p>
 </div>
 <div class="container">
-    <app-card-box *ngFor="let x of prodlist | filtertype:selected | filterprice:min_v:max_v" [product]="x"></app-card-box>
+    <app-card-box *ngFor="let x of prodlist | filtertype:selected | filterprice:min_v:max_v " [product]="x"></app-card-box>
+</div>
 </div>
 
 <!--  | filterprice:min_v:max_v   -->
