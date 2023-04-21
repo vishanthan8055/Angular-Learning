@@ -7,7 +7,18 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
+  types=[
+    "All",
+    "Watch",
+    "Groceries",
+    "Books",
+    "Electronics",
+    "Cosmetics"
+  ]
+  selected="All";
   prodlist:any;
+  min_v=1000;
+  max_v=2500;
   constructor(ps:ProductService){
     ps.getProducts().subscribe(
       {

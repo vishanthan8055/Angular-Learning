@@ -6,3 +6,18 @@
     /* padding: 2rem; */
     margin: 0 auto;
 }
+.bx{
+    padding: .5rem 0rem;
+    margin: 1rem;
+}
+mat-slider {
+    width: 300px;
+  }
+.slt{
+    display: flex;
+    align-items: center;
+}
+.slide{
+    display: flex;
+    align-items: center;
+}
