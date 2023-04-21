@@ -6,8 +6,10 @@ import { min } from 'rxjs';
 })
 export class FilterpricePipe implements PipeTransform {
 
-  transform(products: any, min_v: string, max_v:string): any {
-    return products.filter((x:any)=>(parseInt(x.price)<=parseInt(max_v) && parseInt(x.price)>=parseInt(min_v)))
+  transform(products: any, min_v: number, max_v:number): any {
+    if(max_v===5000){
+      return products.filter((x:any)=>(parseInt(x.price))>=5000)
+    }
+    return products.filter((x:any)=>(parseInt(x.price)<=max_v && parseInt(x.price)>=min_v))
   }
-
 }

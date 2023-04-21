@@ -17,8 +17,8 @@ export class CardComponent {
   ]
   selected="All";
   prodlist:any;
-  min_v=1000;
-  max_v=2500;
+  min_v=0;
+  max_v=2000;
   constructor(ps:ProductService){
     ps.getProducts().subscribe(
       {
