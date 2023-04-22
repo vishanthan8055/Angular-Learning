@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Casio AE-1200",
+      "price": 2500,
+      "type": "Watch",
+      "desc": "Its is a nice watch which was worn by james bond movie hero",
+      "image": "casio.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Apple Airpods Pro, 2nd Generation",
+        "price": 45000,
+        "type": "Electronics",
+        "desc": "Its is a nice earpods which was worn by all",
+        "image": "airpods.jpg"
+  
+      },{
+        "id": 3,
+        "name": "Seeraga Samba Organic Rice",
+        "price": 103,
+        "type": "Groceries",
+        "desc": "Its is a nice rice which wasso popular",
+        "image": "rice.jpg"
+  
+      },{
+        "id": 4,
+        "name": "ATTACK ON TITAN",
+        "price": 1700,
+        "type": "Books",
+        "desc": "Its is a nice comic which was by manga",
+        "image": "aot-1.jpg"
+  
+      },{
+        "id": 5,
+        "name": "Boat Airdopes 441 ",
+        "price": 3500,
+        "type": "Electronics",
+        "desc": "Its is a nice airpods which was used by james bond movie hero",
+        "image": "boatairpods.jpg"
+  
+      },{
+        "id": 6,
+        "name": "Nutriwish Steel Cut Oats (200G)",
+        "price": 115,
+        "type": "Groceries",
+        "desc": "Its is a nice Oats which was used to weight loss",
+        "image": "oats.jpg"
+  
+      },{
+        "id": 7,
+        "name": "Armani Exchange Men Watch",
+        "price": 25000,
+        "type": "Watch",
+        "desc": "Its is a nice watch which was worn by james bond movie hero",
+        "image": "ax.jpg"
+  
+      },{
+        "id": 8,
+        "name": "Naruto V01 V01 Viz",
+        "price": 1600,
+        "type": "Books",
+        "desc": "Its is a nice anime which was written by manga",
+        "image": "naruto.jpg"
+  
+      },{
+        "id": 9,
+        "name": "Jaguar Classic Blue & Green Deodorant",
+        "price": 940,
+        "type": "Cosmetics",
+        "desc": "Its is a nice deodorant which was worn by james bond movie hero",
+        "image": "jaguar.jpg"
+  
+      },{
+        "id": 10,
+        "name": "Asus Zenbook 14X 2022",
+        "price": 250000,
+        "type": "Electronics",
+        "desc": "Its is a nice Laptop which was worn by james bond movie hero",
+        "image": "lap.jpg"
+  
+      },{
+        "id": 11,
+        "name": "Face Serum with Mandarin",
+        "price": 290,
+        "type": "Cosmetics",
+        "desc": "Its is a nice seeerum which was worn by james bond movie hero",
+        "image": "face.jpg"
+  
+      }
+  ]
+}
