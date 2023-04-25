@@ -9,7 +9,11 @@ import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FilterpricePipe } from './pipes/filterprice.pipe';
 import { FiltertypePipe } from './pipes/filtertype.pipe';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ComplaintsComponent } from './complaints/complaints.component';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule, Routes } from '@angular/router';
+import { MenubarComponent } from './menubar/menubar.component';
 
 @NgModule({
   declarations: [
@@ -17,14 +21,19 @@ import { FormsModule } from '@angular/forms';
     CardComponent,
     CardBoxComponent,
     FilterpricePipe,
-    FiltertypePipe
+    FiltertypePipe,
+    ComplaintsComponent,
+    MenubarComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     MaterialModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

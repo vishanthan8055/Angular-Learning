@@ -1,0 +1,43 @@
+<div class="frm">
+    <div class="ct">
+        <h1 style="background-color: beige;">Post Your Complaint</h1>
+        <form class="example-form" (ngSubmit)="submit()">
+            <mat-form-field appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput [(ngModel)]="fname" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <br>
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Product</mat-label>
+              <input matInput
+                     aria-label="product"
+                     [(ngModel)]="product"
+                     [matAutocomplete]="auto"
+                     [formControl]="stateCtrl">
+              <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let prod of filteredStates | async" [value]="prod.name">
+                  <img alt="" class="example-option-img" [src]="prod.flag" height="25">
+                  <span>{{prod.name}}</span> 
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Message</mat-label>
+                <textarea matInput [(ngModel)]="message" [ngModelOptions]="{standalone: true}"></textarea>
+            </mat-form-field>
+            <br>
+            <mat-card-actions>
+                <button type="submit">Submit Enquiry</button>
+            </mat-card-actions>
+        </form>        
+    </div>
+</div>
+
+
+  

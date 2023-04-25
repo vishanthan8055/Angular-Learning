@@ -19,6 +19,7 @@ export class CardComponent {
   prodlist:any;
   min_v=0;
   max_v=2000;
+  isD = "none";
   constructor(ps:ProductService){
     ps.getProducts().subscribe(
       {
@@ -26,5 +27,6 @@ export class CardComponent {
         error:()=>this.prodlist = []
       }
     )
+   
   }
 }

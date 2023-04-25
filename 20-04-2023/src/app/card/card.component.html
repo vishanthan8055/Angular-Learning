@@ -14,6 +14,7 @@
     </mat-slider>
     </div>
     <p style="font-weight: bolder;">{{min_v | currency:'INR'}} to {{max_v | currency:'INR'}}</p>
+    
 </div>
 <div class="container">
     <app-card-box *ngFor="let x of prodlist | filtertype:selected | filterprice:min_v:max_v " [product]="x"></app-card-box>
