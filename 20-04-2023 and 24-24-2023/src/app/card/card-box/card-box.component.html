@@ -13,6 +13,7 @@
     </mat-card-content> -->
     <p class="price">{{product.price | currency:'INR'}}</p>
     <mat-card-actions>
+      <a routerLink="/{{product.id}}">Details</a>
       <button mat-button>Buy</button>
     <button mat-button>Add To Cart</button>
     </mat-card-actions>

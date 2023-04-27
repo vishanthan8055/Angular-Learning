@@ -1,0 +1,27 @@
+<h3>Fill your feedback</h3>
+  
+    <div class="rform">
+        <form  [formGroup]="feedbackForm"  (submit)="saveFeedback(prod)">
+               <table>
+                   <tr>
+                   <th>Name</th>
+                   <td><input type="text" formControlName="fname"></td>
+                   </tr>
+                   <tr>
+                    <th>Email</th>
+                    <td><input type="text" formControlName="email"></td>
+                    </tr>
+                   <tr>
+                       <th>Message</th>
+                       <td><textarea rows=6 cols=50 formControlName="message">
+                           </textarea></td>
+                   </tr>
+                   <tr><td colspan="3" style="text-align:center">
+                          <button type="submit"  class="btn btn-primary" [disabled]="!feedbackForm.valid">
+                                     Post Feedback</button>
+                      </td></tr>
+               </table>
+          
+          
+          </form>
+      </div>

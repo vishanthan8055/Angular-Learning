@@ -14,6 +14,9 @@ import { ComplaintsComponent } from './complaints/complaints.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule, Routes } from '@angular/router';
 import { MenubarComponent } from './menubar/menubar.component';
+import { DatailsComponent } from './card/datails/datails.component';
+import { RevPipe } from './pipes/rev.pipe';
+import { ReviewComponent } from './card/review/review.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { MenubarComponent } from './menubar/menubar.component';
     FilterpricePipe,
     FiltertypePipe,
     ComplaintsComponent,
-    MenubarComponent
+    MenubarComponent,
+    DatailsComponent,
+    RevPipe,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,

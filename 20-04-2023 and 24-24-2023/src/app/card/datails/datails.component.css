@@ -1,0 +1,28 @@
+
+.prod{
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-around;
+}
+.cont h1{
+    font-size: 3rem;
+}
+.cont{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rev h1{
+    text-align: center;
+}
+.rc{
+    border: 2px solid blue;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+#un{
+    font-size: large;
+    font-weight: bolder;
+}
